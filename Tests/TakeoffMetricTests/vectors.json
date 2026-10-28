@@ -1,0 +1,5294 @@
+{
+  "constants": [
+    {
+      "id": "CON-001",
+      "category": "concrete",
+      "material_or_item": "QUIKRETE Concrete Mix No. 1101, 40 lb bag",
+      "quantity": "yield of mixed concrete per bag",
+      "value": null,
+      "value_text": "",
+      "unit": "ft3",
+      "value_si": null,
+      "unit_si": "m3",
+      "condition": "mixed concrete, approximate",
+      "source": {
+        "publisher": "QUIKRETE",
+        "title": "Concrete Mix No. 1101 data sheet",
+        "url": "https://www.quikrete.com/pdfs/data_sheet-concrete%20mix%201101.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/",
+        "https://takeoffmetric.com/concrete/footing-calculator/",
+        "https://takeoffmetric.com/concrete/concrete-cost-calculator/",
+        "https://takeoffmetric.com/decks-fences/fence-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts",
+        "site/src/engine/formulas/concrete/footing.ts",
+        "site/src/engine/formulas/concrete/concrete-cost.ts",
+        "site/src/data/reference/fence.ts"
+      ],
+      "engine_symbol": [
+        "BAG_YIELDS[\"40\"].cuft",
+        "BAG_CUFT[\"40\"]",
+        "BAG_CUFT[\"40\"]",
+        "FENCE_BAG_YIELD_CUFT[\"40\"]"
+      ],
+      "notes": "One product line; other brands publish their own yields.",
+      "withheld": true,
+      "withheld_hosts": [
+        "quikrete.com"
+      ]
+    },
+    {
+      "id": "CON-002",
+      "category": "concrete",
+      "material_or_item": "QUIKRETE Concrete Mix No. 1101, 50 lb bag",
+      "quantity": "yield of mixed concrete per bag",
+      "value": null,
+      "value_text": "",
+      "unit": "ft3",
+      "value_si": null,
+      "unit_si": "m3",
+      "condition": "mixed concrete, approximate",
+      "source": {
+        "publisher": "QUIKRETE",
+        "title": "Concrete Mix No. 1101 data sheet",
+        "url": "https://www.quikrete.com/pdfs/data_sheet-concrete%20mix%201101.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/",
+        "https://takeoffmetric.com/concrete/footing-calculator/",
+        "https://takeoffmetric.com/concrete/concrete-cost-calculator/",
+        "https://takeoffmetric.com/decks-fences/fence-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts",
+        "site/src/engine/formulas/concrete/footing.ts",
+        "site/src/engine/formulas/concrete/concrete-cost.ts",
+        "site/src/data/reference/fence.ts"
+      ],
+      "engine_symbol": [
+        "BAG_YIELDS[\"50\"].cuft",
+        "BAG_CUFT[\"50\"]",
+        "BAG_CUFT[\"50\"]",
+        "FENCE_BAG_YIELD_CUFT[\"50\"]"
+      ],
+      "notes": "One product line; other brands publish their own yields.",
+      "withheld": true,
+      "withheld_hosts": [
+        "quikrete.com"
+      ]
+    },
+    {
+      "id": "CON-003",
+      "category": "concrete",
+      "material_or_item": "QUIKRETE Concrete Mix No. 1101, 60 lb bag",
+      "quantity": "yield of mixed concrete per bag",
+      "value": null,
+      "value_text": "",
+      "unit": "ft3",
+      "value_si": null,
+      "unit_si": "m3",
+      "condition": "mixed concrete, approximate",
+      "source": {
+        "publisher": "QUIKRETE",
+        "title": "Concrete Mix No. 1101 data sheet",
+        "url": "https://www.quikrete.com/pdfs/data_sheet-concrete%20mix%201101.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/",
+        "https://takeoffmetric.com/concrete/footing-calculator/",
+        "https://takeoffmetric.com/concrete/concrete-cost-calculator/",
+        "https://takeoffmetric.com/decks-fences/fence-calculator/",
+        "https://takeoffmetric.com/decks-fences/deck-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts",
+        "site/src/engine/formulas/concrete/footing.ts",
+        "site/src/engine/formulas/concrete/concrete-cost.ts",
+        "site/src/data/reference/fence.ts",
+        "site/src/data/reference/deck.ts"
+      ],
+      "engine_symbol": [
+        "BAG_YIELDS[\"60\"].cuft",
+        "BAG_CUFT[\"60\"]",
+        "BAG_CUFT[\"60\"]",
+        "FENCE_BAG_YIELD_CUFT[\"60\"]",
+        "BAG_YIELD_CUFT[\"1101-60\"]"
+      ],
+      "notes": "One product line; other brands publish their own yields.",
+      "withheld": true,
+      "withheld_hosts": [
+        "quikrete.com"
+      ]
+    },
+    {
+      "id": "CON-004",
+      "category": "concrete",
+      "material_or_item": "QUIKRETE Concrete Mix No. 1101, 80 lb bag",
+      "quantity": "yield of mixed concrete per bag",
+      "value": null,
+      "value_text": "",
+      "unit": "ft3",
+      "value_si": null,
+      "unit_si": "m3",
+      "condition": "mixed concrete, approximate",
+      "source": {
+        "publisher": "QUIKRETE",
+        "title": "Concrete Mix No. 1101 data sheet",
+        "url": "https://www.quikrete.com/pdfs/data_sheet-concrete%20mix%201101.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/",
+        "https://takeoffmetric.com/concrete/footing-calculator/",
+        "https://takeoffmetric.com/concrete/concrete-cost-calculator/",
+        "https://takeoffmetric.com/decks-fences/fence-calculator/",
+        "https://takeoffmetric.com/decks-fences/deck-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts",
+        "site/src/engine/formulas/concrete/footing.ts",
+        "site/src/engine/formulas/concrete/concrete-cost.ts",
+        "site/src/data/reference/fence.ts",
+        "site/src/data/reference/deck.ts"
+      ],
+      "engine_symbol": [
+        "BAG_YIELDS[\"80\"].cuft",
+        "BAG_CUFT[\"80\"]",
+        "BAG_CUFT[\"80\"]",
+        "FENCE_BAG_YIELD_CUFT[\"80\"]",
+        "BAG_YIELD_CUFT[\"1101-80\"]"
+      ],
+      "notes": "One product line; other brands publish their own yields.",
+      "withheld": true,
+      "withheld_hosts": [
+        "quikrete.com"
+      ]
+    },
+    {
+      "id": "CON-005",
+      "category": "concrete",
+      "material_or_item": "QUIKRETE Concrete Mix No. 1101, 90 lb bag",
+      "quantity": "yield of mixed concrete per bag",
+      "value": null,
+      "value_text": "",
+      "unit": "ft3",
+      "value_si": null,
+      "unit_si": "m3",
+      "condition": "mixed concrete, approximate",
+      "source": {
+        "publisher": "QUIKRETE",
+        "title": "Concrete Mix No. 1101 data sheet",
+        "url": "https://www.quikrete.com/pdfs/data_sheet-concrete%20mix%201101.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/",
+        "https://takeoffmetric.com/concrete/footing-calculator/",
+        "https://takeoffmetric.com/concrete/concrete-cost-calculator/",
+        "https://takeoffmetric.com/decks-fences/fence-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts",
+        "site/src/engine/formulas/concrete/footing.ts",
+        "site/src/engine/formulas/concrete/concrete-cost.ts",
+        "site/src/data/reference/fence.ts"
+      ],
+      "engine_symbol": [
+        "BAG_YIELDS[\"90\"].cuft",
+        "BAG_CUFT[\"90\"]",
+        "BAG_CUFT[\"90\"]",
+        "FENCE_BAG_YIELD_CUFT[\"90\"]"
+      ],
+      "notes": "One product line; other brands publish their own yields.",
+      "withheld": true,
+      "withheld_hosts": [
+        "quikrete.com"
+      ]
+    },
+    {
+      "id": "CON-006",
+      "category": "concrete",
+      "material_or_item": "QUIKRETE Fast-Setting Concrete Mix No. 1004, 50 lb bag",
+      "quantity": "yield of mixed concrete per bag",
+      "value": null,
+      "value_text": "",
+      "unit": "ft3",
+      "value_si": null,
+      "unit_si": "m3",
+      "condition": "mixed concrete, approximate",
+      "source": {
+        "publisher": "QUIKRETE",
+        "title": "Fast-Setting Concrete Mix No. 1004 data sheet",
+        "url": "https://www.quikrete.com/pdfs/data_sheet-fast%20setting%20concrete%20mix%201004-50.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/decks-fences/deck-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/deck.ts"
+      ],
+      "engine_symbol": [
+        "BAG_YIELD_CUFT[\"1004-50\"]"
+      ],
+      "notes": "One product.",
+      "withheld": true,
+      "withheld_hosts": [
+        "quikrete.com"
+      ]
+    },
+    {
+      "id": "CON-007",
+      "category": "concrete",
+      "material_or_item": "Normal-weight concrete",
+      "quantity": "unit weight, low end of range",
+      "value": 140,
+      "value_text": "140",
+      "unit": "lb/ft3",
+      "value_si": 2243,
+      "unit_si": "kg/m3",
+      "condition": "hardened",
+      "source": {
+        "publisher": "Federal Highway Administration (FHWA)",
+        "title": "FHWA-HRT-05-057, Appendix C",
+        "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/bridge/05057/appc.cfm",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts"
+      ],
+      "engine_symbol": [
+        "CONCRETE_LB_PER_CUFT_MIN"
+      ],
+      "notes": "Ledger status PARTIAL: the source supports the 140-155 range only; the range is what is listed here. Report on high-strength concrete for highway bridges. The calculator's 150 lb/ft3 default is its own editable assumption and is not listed.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "CON-008",
+      "category": "concrete",
+      "material_or_item": "Normal-weight concrete",
+      "quantity": "unit weight, high end of range",
+      "value": 155,
+      "value_text": "155",
+      "unit": "lb/ft3",
+      "value_si": 2483,
+      "unit_si": "kg/m3",
+      "condition": "hardened",
+      "source": {
+        "publisher": "Federal Highway Administration (FHWA)",
+        "title": "FHWA-HRT-05-057, Appendix C",
+        "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/bridge/05057/appc.cfm",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts"
+      ],
+      "engine_symbol": [
+        "CONCRETE_LB_PER_CUFT_MAX"
+      ],
+      "notes": "Same PARTIAL note as the low end: range only.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "CON-009",
+      "category": "concrete",
+      "material_or_item": "Slab on grade, control joints",
+      "quantity": "maximum joint spacing, lower multiplier",
+      "value": 24,
+      "value_text": "24",
+      "unit": "x slab thickness",
+      "value_si": 24,
+      "unit_si": "x slab thickness",
+      "condition": "",
+      "source": {
+        "publisher": "National Ready Mixed Concrete Association (NRMCA)",
+        "title": "CIP 6, Joints in Concrete Slabs on Grade",
+        "url": "https://www.nrmca.org/wp-content/uploads/2021/01/06pr.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts"
+      ],
+      "engine_symbol": [
+        "JOINT_SPACING_MIN_X"
+      ],
+      "notes": "Joint spacing = 24 to 36 times slab thickness.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "CON-010",
+      "category": "concrete",
+      "material_or_item": "Slab on grade, control joints",
+      "quantity": "maximum joint spacing, upper multiplier",
+      "value": 36,
+      "value_text": "36",
+      "unit": "x slab thickness",
+      "value_si": 36,
+      "unit_si": "x slab thickness",
+      "condition": "",
+      "source": {
+        "publisher": "National Ready Mixed Concrete Association (NRMCA)",
+        "title": "CIP 6, Joints in Concrete Slabs on Grade",
+        "url": "https://www.nrmca.org/wp-content/uploads/2021/01/06pr.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts"
+      ],
+      "engine_symbol": [
+        "JOINT_SPACING_MAX_X"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "CON-014",
+      "category": "concrete",
+      "material_or_item": "Gravel base under slab / gravel, dry, average gradation",
+      "quantity": "loose-to-compacted volume ratio",
+      "value": 1.31,
+      "value_text": "1.31",
+      "unit": "ratio",
+      "value_si": 1.31,
+      "unit_si": "ratio",
+      "condition": "loose to embankment (compacted)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/concrete-calculator/",
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/concrete.ts",
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "BASE_FHWA_RATIO",
+        "R_GRAVEL"
+      ],
+      "notes": "Arithmetic from Exhibit 5.1 A: embankment 3,570 / loose 2,730 lb/yd3. Highway embankment, not a plate-compacted layer; FHWA gives the exhibit for estimating before project-specific data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-001",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #3",
+      "quantity": "nominal diameter",
+      "value": 0.375,
+      "value_text": "0.375",
+      "unit": "in",
+      "value_si": 9.525,
+      "unit_si": "mm",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_DIAMETER_IN[\"3\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-002",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #3",
+      "quantity": "nominal weight per foot",
+      "value": 0.376,
+      "value_text": "0.376",
+      "unit": "lb/ft",
+      "value_si": 0.5595,
+      "unit_si": "kg/m",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_WEIGHT_LB_FT[\"3\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-003",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #4",
+      "quantity": "nominal diameter",
+      "value": 0.5,
+      "value_text": "0.500",
+      "unit": "in",
+      "value_si": 12.7,
+      "unit_si": "mm",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_DIAMETER_IN[\"4\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-004",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #4",
+      "quantity": "nominal weight per foot",
+      "value": 0.668,
+      "value_text": "0.668",
+      "unit": "lb/ft",
+      "value_si": 0.9941,
+      "unit_si": "kg/m",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_WEIGHT_LB_FT[\"4\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-005",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #5",
+      "quantity": "nominal diameter",
+      "value": 0.625,
+      "value_text": "0.625",
+      "unit": "in",
+      "value_si": 15.88,
+      "unit_si": "mm",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_DIAMETER_IN[\"5\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-006",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #5",
+      "quantity": "nominal weight per foot",
+      "value": 1.043,
+      "value_text": "1.043",
+      "unit": "lb/ft",
+      "value_si": 1.552,
+      "unit_si": "kg/m",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_WEIGHT_LB_FT[\"5\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-007",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #6",
+      "quantity": "nominal diameter",
+      "value": 0.75,
+      "value_text": "0.750",
+      "unit": "in",
+      "value_si": 19.05,
+      "unit_si": "mm",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_DIAMETER_IN[\"6\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-008",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #6",
+      "quantity": "nominal weight per foot",
+      "value": 1.502,
+      "value_text": "1.502",
+      "unit": "lb/ft",
+      "value_si": 2.235,
+      "unit_si": "kg/m",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_WEIGHT_LB_FT[\"6\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-009",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #7",
+      "quantity": "nominal diameter",
+      "value": 0.875,
+      "value_text": "0.875",
+      "unit": "in",
+      "value_si": 22.22,
+      "unit_si": "mm",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_DIAMETER_IN[\"7\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-010",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #7",
+      "quantity": "nominal weight per foot",
+      "value": 2.044,
+      "value_text": "2.044",
+      "unit": "lb/ft",
+      "value_si": 3.042,
+      "unit_si": "kg/m",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_WEIGHT_LB_FT[\"7\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-011",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #8",
+      "quantity": "nominal diameter",
+      "value": 1,
+      "value_text": "1.000",
+      "unit": "in",
+      "value_si": 25.4,
+      "unit_si": "mm",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_DIAMETER_IN[\"8\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-012",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar #8",
+      "quantity": "nominal weight per foot",
+      "value": 2.67,
+      "value_text": "2.670",
+      "unit": "lb/ft",
+      "value_si": 3.973,
+      "unit_si": "kg/m",
+      "condition": "",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 440, Table 1",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "BAR_WEIGHT_LB_FT[\"8\"]"
+      ],
+      "notes": "State DOT specification (Texas).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "REB-013",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar, mill stock length",
+      "quantity": "stock length option 1",
+      "value": null,
+      "value_text": "",
+      "unit": "ft",
+      "value_si": null,
+      "unit_si": "m",
+      "condition": "one producer's mill lengths",
+      "source": {
+        "publisher": "Nucor",
+        "title": "Steel Rebar (product page, FAQ)",
+        "url": "https://nucor.com/products/rebar/",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "STOCK_LENGTH_FT[0]"
+      ],
+      "notes": "Mill lengths of one producer; retail stock lengths may differ.",
+      "withheld": true,
+      "withheld_hosts": [
+        "nucor.com"
+      ]
+    },
+    {
+      "id": "REB-014",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar, mill stock length",
+      "quantity": "stock length option 2",
+      "value": null,
+      "value_text": "",
+      "unit": "ft",
+      "value_si": null,
+      "unit_si": "m",
+      "condition": "one producer's mill lengths",
+      "source": {
+        "publisher": "Nucor",
+        "title": "Steel Rebar (product page, FAQ)",
+        "url": "https://nucor.com/products/rebar/",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "STOCK_LENGTH_FT[1]"
+      ],
+      "notes": "Mill lengths of one producer; retail stock lengths may differ.",
+      "withheld": true,
+      "withheld_hosts": [
+        "nucor.com"
+      ]
+    },
+    {
+      "id": "REB-015",
+      "category": "rebar",
+      "material_or_item": "Reinforcing bar, mill stock length",
+      "quantity": "stock length option 3",
+      "value": null,
+      "value_text": "",
+      "unit": "ft",
+      "value_si": null,
+      "unit_si": "m",
+      "condition": "one producer's mill lengths",
+      "source": {
+        "publisher": "Nucor",
+        "title": "Steel Rebar (product page, FAQ)",
+        "url": "https://nucor.com/products/rebar/",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/concrete/rebar-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/rebar.ts"
+      ],
+      "engine_symbol": [
+        "STOCK_LENGTH_FT[2]"
+      ],
+      "notes": "Mill lengths of one producer; retail stock lengths may differ.",
+      "withheld": true,
+      "withheld_hosts": [
+        "nucor.com"
+      ]
+    },
+    {
+      "id": "AGG-001",
+      "category": "aggregates",
+      "material_or_item": "Gravel, dry, 1/4-2 in",
+      "quantity": "mass density, loose dry",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose, dry",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"gravel-14-2\"].dry"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-002",
+      "category": "aggregates",
+      "material_or_item": "Gravel, dry, 1/4-2 in",
+      "quantity": "mass density, bank",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "bank (in place, undisturbed)",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"gravel-14-2\"].bank"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. Bank = in its natural deposit; used by the calculator only as a stand-in where stated on the page.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-003",
+      "category": "aggregates",
+      "material_or_item": "Gravel, wet, 1/4-2 in",
+      "quantity": "mass density, loose wet",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose, wet",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"gravel-14-2\"].wet"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-004",
+      "category": "aggregates",
+      "material_or_item": "Gravel, dry (unsized)",
+      "quantity": "mass density, loose dry",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose, dry",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"gravel-dry\"].dry"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-005",
+      "category": "aggregates",
+      "material_or_item": "Gravel, dry (unsized)",
+      "quantity": "mass density, bank",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "bank (in place, undisturbed)",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"gravel-dry\"].bank"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. Bank = in its natural deposit; used by the calculator only as a stand-in where stated on the page.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-006",
+      "category": "aggregates",
+      "material_or_item": "Gravel, pit run",
+      "quantity": "mass density, loose",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"gravel-pitrun\"].dry"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-007",
+      "category": "aggregates",
+      "material_or_item": "Gravel, pit run",
+      "quantity": "mass density, bank",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "bank (in place, undisturbed)",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"gravel-pitrun\"].bank"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. Bank = in its natural deposit; used by the calculator only as a stand-in where stated on the page.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-008",
+      "category": "aggregates",
+      "material_or_item": "Crushed stone",
+      "quantity": "mass density, loose",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/",
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts",
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"crushed-stone\"].dry",
+        "CRUSHED_STONE_LB_CUYD"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. The same table's crushed-stone bank figure describes solid rock before blasting and is deliberately not used.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-009",
+      "category": "aggregates",
+      "material_or_item": "Sand and gravel, dry",
+      "quantity": "mass density, loose dry",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose, dry",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"sand-gravel\"].dry"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-010",
+      "category": "aggregates",
+      "material_or_item": "Sand and gravel, dry",
+      "quantity": "mass density, bank",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "bank (in place, undisturbed)",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"sand-gravel\"].bank"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. Bank = in its natural deposit; used by the calculator only as a stand-in where stated on the page.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-011",
+      "category": "aggregates",
+      "material_or_item": "Sand and gravel, wet",
+      "quantity": "mass density, loose wet",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose, wet",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"sand-gravel\"].wet"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-012",
+      "category": "aggregates",
+      "material_or_item": "Sand, dry",
+      "quantity": "mass density, loose dry",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose, dry",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/",
+        "https://takeoffmetric.com/earthwork/sand-calculator/",
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts",
+        "site/src/data/reference/sand.ts",
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"sand\"].dry",
+        "SAND_ROWS[\"dry\"].loose",
+        "SAND_DRY_LB_CUYD"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-013",
+      "category": "aggregates",
+      "material_or_item": "Sand, dry",
+      "quantity": "mass density, bank",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "bank (in place, undisturbed)",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/",
+        "https://takeoffmetric.com/earthwork/sand-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts",
+        "site/src/data/reference/sand.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"sand\"].bank",
+        "SAND_ROWS[\"dry\"].bank"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. Bank = in its natural deposit; used by the calculator only as a stand-in where stated on the page.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-014",
+      "category": "aggregates",
+      "material_or_item": "Sand, damp",
+      "quantity": "mass density, loose damp",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose, damp",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/",
+        "https://takeoffmetric.com/earthwork/sand-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts",
+        "site/src/data/reference/sand.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"sand\"].damp",
+        "SAND_ROWS[\"damp\"].loose"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-015",
+      "category": "aggregates",
+      "material_or_item": "Sand, damp",
+      "quantity": "mass density, bank",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "bank (in place, undisturbed)",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/sand-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/sand.ts"
+      ],
+      "engine_symbol": [
+        "SAND_ROWS[\"damp\"].bank"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. Bank = in its natural deposit; used by the calculator only as a stand-in where stated on the page.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-016",
+      "category": "aggregates",
+      "material_or_item": "Sand, wet",
+      "quantity": "mass density, loose wet",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose, wet",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/",
+        "https://takeoffmetric.com/earthwork/sand-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts",
+        "site/src/data/reference/sand.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"sand\"].wet",
+        "SAND_ROWS[\"wet\"].loose"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-017",
+      "category": "aggregates",
+      "material_or_item": "Sand, wet",
+      "quantity": "mass density, bank",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "bank (in place, undisturbed)",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/sand-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/sand.ts"
+      ],
+      "engine_symbol": [
+        "SAND_ROWS[\"wet\"].bank"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. Bank = in its natural deposit; used by the calculator only as a stand-in where stated on the page.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-018",
+      "category": "aggregates",
+      "material_or_item": "Top soil",
+      "quantity": "mass density, loose",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/",
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts",
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"topsoil\"].dry",
+        "TOPSOIL_LOOSE_LB_CUYD_CAT"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-019",
+      "category": "aggregates",
+      "material_or_item": "Top soil",
+      "quantity": "mass density, bank",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "bank (in place, undisturbed)",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"topsoil\"].bank"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. Bank = in its natural deposit; used by the calculator only as a stand-in where stated on the page.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-020",
+      "category": "aggregates",
+      "material_or_item": "Earth, loam",
+      "quantity": "mass density, loose",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "loose",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"earth-loam\"].dry"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-021",
+      "category": "aggregates",
+      "material_or_item": "Earth, loam",
+      "quantity": "mass density, bank",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "bank (in place, undisturbed)",
+      "source": {
+        "publisher": "Caterpillar",
+        "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+        "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"earth-loam\"].bank"
+      ],
+      "notes": "Manufacturer engineering reference table. Caterpillar also prints its own kg/m3 column. Bank = in its natural deposit; used by the calculator only as a stand-in where stated on the page.",
+      "withheld": true,
+      "withheld_hosts": [
+        "cat.com"
+      ]
+    },
+    {
+      "id": "AGG-022",
+      "category": "aggregates",
+      "material_or_item": "River rock",
+      "quantity": "mass density as delivered",
+      "value": 2800,
+      "value_text": "2800",
+      "unit": "lb/yd3",
+      "value_si": 1661,
+      "unit_si": "kg/m3",
+      "condition": "as delivered (supplier chart)",
+      "source": {
+        "publisher": "Marenakos Rock Center",
+        "title": "Conversion and coverages",
+        "url": "https://marenakos.com/conversion-and-coverages/",
+        "type": "supplier"
+      },
+      "date_opened": "2026-09-22",
+      "date_opened_unix": 1790035200,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"river-rock\"].damp"
+      ],
+      "notes": "One supplier's chart; weights vary with moisture. Ledger PARTIAL upgraded to VERIFIED at the 2026-09-22 re-check.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "AGG-023",
+      "category": "aggregates",
+      "material_or_item": "Crushed granite",
+      "quantity": "mass density as delivered",
+      "value": 2500,
+      "value_text": "2500",
+      "unit": "lb/yd3",
+      "value_si": 1483,
+      "unit_si": "kg/m3",
+      "condition": "as delivered (supplier chart)",
+      "source": {
+        "publisher": "Marenakos Rock Center",
+        "title": "Conversion and coverages",
+        "url": "https://marenakos.com/conversion-and-coverages/",
+        "type": "supplier"
+      },
+      "date_opened": "2026-09-22",
+      "date_opened_unix": 1790035200,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"crushed-granite\"].damp"
+      ],
+      "notes": "One supplier's chart; weights vary with moisture. Ledger PARTIAL upgraded to VERIFIED at the 2026-09-22 re-check.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "AGG-024",
+      "category": "aggregates",
+      "material_or_item": "Sand / gravel / decomposed granite / rock / river cobble",
+      "quantity": "mass density as delivered",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/yd3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "as delivered (supplier chart)",
+      "source": {
+        "publisher": "North Bay Materials",
+        "title": "Cubic Yard to Tons material calculator and density chart",
+        "url": "https://www.northbaymaterials.com/landscape-material-density-calculator",
+        "type": "supplier"
+      },
+      "date_opened": "2026-09-22",
+      "date_opened_unix": 1790035200,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "AGGREGATES[\"landscape-mix\"].damp"
+      ],
+      "notes": "Supplier chart; the supplier notes that weights vary with moisture.",
+      "withheld": true,
+      "withheld_hosts": [
+        "northbaymaterials.com"
+      ]
+    },
+    {
+      "id": "AGG-025",
+      "category": "aggregates",
+      "material_or_item": "Sand, dry",
+      "quantity": "loose-to-compacted volume ratio",
+      "value": 1.25,
+      "value_text": "1.25",
+      "unit": "ratio",
+      "value_si": 1.25,
+      "unit_si": "ratio",
+      "condition": "loose to embankment (compacted)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/sand-calculator/",
+        "https://takeoffmetric.com/earthwork/gravel-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/sand.ts",
+        "site/src/data/reference/aggregates.ts"
+      ],
+      "engine_symbol": [
+        "FHWA_SAND_RATIO",
+        "AGGREGATES[\"sand\"].r"
+      ],
+      "notes": "Arithmetic from Exhibit 5.1 A: embankment 3,240 / loose 2,590 lb/yd3. Highway embankment, not a plate-compacted layer.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-001",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, dry",
+      "quantity": "mass density, in situ",
+      "value": 3030,
+      "value_text": "3030",
+      "unit": "lb/yd3",
+      "value_si": 1798,
+      "unit_si": "kg/m3",
+      "condition": "in situ (bank)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-dry\"].inSitu",
+        "SWELL_ROWS[\"loam-dry\"].inSitu"
+      ],
+      "notes": "FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-002",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, dry",
+      "quantity": "mass density, loose",
+      "value": 2070,
+      "value_text": "2070",
+      "unit": "lb/yd3",
+      "value_si": 1228,
+      "unit_si": "kg/m3",
+      "condition": "loose",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-dry\"].loose",
+        "SWELL_ROWS[\"loam-dry\"].loose"
+      ],
+      "notes": "FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-003",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, dry",
+      "quantity": "loose-to-compacted volume ratio",
+      "value": 1.7,
+      "value_text": "1.70",
+      "unit": "ratio",
+      "value_si": 1.7,
+      "unit_si": "ratio",
+      "condition": "loose to embankment (compacted)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-dry\"].looseToCompacted"
+      ],
+      "notes": "Arithmetic: embankment / loose, rounded to 2 decimals. Highway embankment compaction; the fill-dirt calculator applies it only when the user asks for a compacted volume. FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-004",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, dry",
+      "quantity": "in-situ-to-loose volume ratio (swell)",
+      "value": 1.46,
+      "value_text": "1.46",
+      "unit": "ratio",
+      "value_si": 1.46,
+      "unit_si": "ratio",
+      "condition": "in situ to loose",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-dry\"].inSituToLoose",
+        "SWELL_ROWS[\"loam-dry\"].factor"
+      ],
+      "notes": "Arithmetic: in situ / loose, rounded to 2 decimals. FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-005",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, damp",
+      "quantity": "mass density, in situ",
+      "value": 3370,
+      "value_text": "3370",
+      "unit": "lb/yd3",
+      "value_si": 1999,
+      "unit_si": "kg/m3",
+      "condition": "in situ (bank)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-damp\"].inSitu",
+        "SWELL_ROWS[\"loam-damp\"].inSitu"
+      ],
+      "notes": "FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-006",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, damp",
+      "quantity": "mass density, loose",
+      "value": 2360,
+      "value_text": "2360",
+      "unit": "lb/yd3",
+      "value_si": 1400,
+      "unit_si": "kg/m3",
+      "condition": "loose",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-damp\"].loose",
+        "SWELL_ROWS[\"loam-damp\"].loose"
+      ],
+      "notes": "FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-007",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, damp",
+      "quantity": "loose-to-compacted volume ratio",
+      "value": 1.49,
+      "value_text": "1.49",
+      "unit": "ratio",
+      "value_si": 1.49,
+      "unit_si": "ratio",
+      "condition": "loose to embankment (compacted)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-damp\"].looseToCompacted"
+      ],
+      "notes": "Arithmetic: embankment / loose, rounded to 2 decimals. Highway embankment compaction; the fill-dirt calculator applies it only when the user asks for a compacted volume. FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-008",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, damp",
+      "quantity": "in-situ-to-loose volume ratio (swell)",
+      "value": 1.43,
+      "value_text": "1.43",
+      "unit": "ratio",
+      "value_si": 1.43,
+      "unit_si": "ratio",
+      "condition": "in situ to loose",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-damp\"].inSituToLoose",
+        "SWELL_ROWS[\"loam-damp\"].factor"
+      ],
+      "notes": "Arithmetic: in situ / loose, rounded to 2 decimals. FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-009",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, wet",
+      "quantity": "mass density, in situ",
+      "value": 2940,
+      "value_text": "2940",
+      "unit": "lb/yd3",
+      "value_si": 1744,
+      "unit_si": "kg/m3",
+      "condition": "in situ (bank)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-wet\"].inSitu",
+        "SWELL_ROWS[\"loam-wet\"].inSitu"
+      ],
+      "notes": "FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-010",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, wet",
+      "quantity": "mass density, loose",
+      "value": 2940,
+      "value_text": "2940",
+      "unit": "lb/yd3",
+      "value_si": 1744,
+      "unit_si": "kg/m3",
+      "condition": "loose",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-wet\"].loose",
+        "SWELL_ROWS[\"loam-wet\"].loose"
+      ],
+      "notes": "FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-011",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, wet",
+      "quantity": "loose-to-compacted volume ratio",
+      "value": 1.2,
+      "value_text": "1.20",
+      "unit": "ratio",
+      "value_si": 1.2,
+      "unit_si": "ratio",
+      "condition": "loose to embankment (compacted)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-wet\"].looseToCompacted"
+      ],
+      "notes": "Arithmetic: embankment / loose, rounded to 2 decimals. Highway embankment compaction; the fill-dirt calculator applies it only when the user asks for a compacted volume. FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-012",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam, wet",
+      "quantity": "in-situ-to-loose volume ratio (swell)",
+      "value": 1,
+      "value_text": "1.00",
+      "unit": "ratio",
+      "value_si": 1,
+      "unit_si": "ratio",
+      "condition": "in situ to loose",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-wet\"].inSituToLoose",
+        "SWELL_ROWS[\"loam-wet\"].factor"
+      ],
+      "notes": "Arithmetic: in situ / loose, rounded to 2 decimals. FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-013",
+      "category": "earthwork",
+      "material_or_item": "Topsoil",
+      "quantity": "mass density, in situ",
+      "value": 2430,
+      "value_text": "2430",
+      "unit": "lb/yd3",
+      "value_si": 1442,
+      "unit_si": "kg/m3",
+      "condition": "in situ (bank)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"topsoil\"].inSitu",
+        "SWELL_ROWS[\"topsoil\"].inSitu"
+      ],
+      "notes": "FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-014",
+      "category": "earthwork",
+      "material_or_item": "Topsoil",
+      "quantity": "mass density, loose",
+      "value": 1620,
+      "value_text": "1620",
+      "unit": "lb/yd3",
+      "value_si": 961.1,
+      "unit_si": "kg/m3",
+      "condition": "loose",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/",
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts",
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"topsoil\"].loose",
+        "SWELL_ROWS[\"topsoil\"].loose",
+        "TOPSOIL_LOOSE_LB_CUYD"
+      ],
+      "notes": "FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-015",
+      "category": "earthwork",
+      "material_or_item": "Topsoil",
+      "quantity": "loose-to-compacted volume ratio",
+      "value": 2.02,
+      "value_text": "2.02",
+      "unit": "ratio",
+      "value_si": 2.02,
+      "unit_si": "ratio",
+      "condition": "loose to embankment (compacted)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"topsoil\"].looseToCompacted"
+      ],
+      "notes": "Arithmetic: embankment / loose, rounded to 2 decimals. Highway embankment compaction; the fill-dirt calculator applies it only when the user asks for a compacted volume. FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-016",
+      "category": "earthwork",
+      "material_or_item": "Topsoil",
+      "quantity": "in-situ-to-loose volume ratio (swell)",
+      "value": 1.5,
+      "value_text": "1.50",
+      "unit": "ratio",
+      "value_si": 1.5,
+      "unit_si": "ratio",
+      "condition": "in situ to loose",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/",
+        "https://takeoffmetric.com/measure/cubic-yard-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/cubic-yard.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"topsoil\"].inSituToLoose",
+        "SWELL_ROWS[\"topsoil\"].factor"
+      ],
+      "notes": "Arithmetic: in situ / loose, rounded to 2 decimals. FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-017",
+      "category": "earthwork",
+      "material_or_item": "Earth, loam (dry, damp or wet)",
+      "quantity": "mass density, embankment (compacted)",
+      "value": 3520,
+      "value_text": "3520",
+      "unit": "lb/yd3",
+      "value_si": 2088,
+      "unit_si": "kg/m3",
+      "condition": "embankment (compacted highway fill)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/fill-dirt.ts",
+        "site/src/data/reference/fill-dirt.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"loam-dry\"].embankment",
+        "FILL_DIRT_ROWS[\"loam-damp\"].embankment",
+        "FILL_DIRT_ROWS[\"loam-wet\"].embankment"
+      ],
+      "notes": "The exhibit prints one embankment value for the three loam rows. FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "EW-018",
+      "category": "earthwork",
+      "material_or_item": "Topsoil",
+      "quantity": "mass density, embankment (compacted)",
+      "value": 3280,
+      "value_text": "3280",
+      "unit": "lb/yd3",
+      "value_si": 1946,
+      "unit_si": "kg/m3",
+      "condition": "embankment (compacted highway fill)",
+      "source": {
+        "publisher": "FHWA Federal Lands Highway",
+        "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+        "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/fill-dirt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/fill-dirt.ts"
+      ],
+      "engine_symbol": [
+        "FILL_DIRT_ROWS[\"topsoil\"].embankment"
+      ],
+      "notes": "FHWA Exhibit 5.1 A; FHWA gives these values for estimating before project-specific geotechnical data.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LND-001",
+      "category": "landscaping",
+      "material_or_item": "Topsoil for a new lawn from seed",
+      "quantity": "root-zone depth to reach",
+      "value": 4,
+      "value_text": "4",
+      "unit": "in",
+      "value_si": 101.6,
+      "unit_si": "mm",
+      "condition": "total root-zone depth, not a layer added on top",
+      "source": {
+        "publisher": "Michigan State University Extension",
+        "title": "E2910, Establishing a new lawn using seed",
+        "url": "https://www.canr.msu.edu/resources/establishing_a_new_lawn_using_seed_e2910",
+        "type": "other"
+      },
+      "date_opened": "2026-09-22",
+      "date_opened_unix": 1790035200,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "TOPSOIL_JOBS[\"new-lawn\"].depthIn"
+      ],
+      "notes": "The same source has the soil tilled 4 to 6 in deep.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LND-002",
+      "category": "landscaping",
+      "material_or_item": "Topsoil over a poor soil before seeding",
+      "quantity": "added layer, up to",
+      "value": 3,
+      "value_text": "3",
+      "unit": "in",
+      "value_si": 76.2,
+      "unit_si": "mm",
+      "condition": "layer added on top",
+      "source": {
+        "publisher": "Clemson University Home & Garden Information Center",
+        "title": "Lawn Establishment",
+        "url": "https://hgic.clemson.edu/factsheet/lawn-establishment/",
+        "type": "other"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "TOPSOIL_JOBS[\"bed-amend\"].depthIn"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LND-003",
+      "category": "landscaping",
+      "material_or_item": "Top-dressing an established lawn",
+      "quantity": "maximum depth per application",
+      "value": 0.5,
+      "value_text": "0.5",
+      "unit": "in",
+      "value_si": 12.7,
+      "unit_si": "mm",
+      "condition": "per application",
+      "source": {
+        "publisher": "Clemson University Home & Garden Information Center",
+        "title": "Topdressing a Home Lawn",
+        "url": "https://hgic.clemson.edu/factsheet/topdressing-a-home-lawn/",
+        "type": "other"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "TOPSOIL_JOBS[\"topdress\"].depthIn"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LND-004",
+      "category": "landscaping",
+      "material_or_item": "Compost over existing soil (raised bed on soil)",
+      "quantity": "added layer, low end",
+      "value": 2,
+      "value_text": "2",
+      "unit": "in",
+      "value_si": 50.8,
+      "unit_si": "mm",
+      "condition": "mixed into the top 4 in",
+      "source": {
+        "publisher": "University of Maryland Extension",
+        "title": "Soil to fill raised beds",
+        "url": "https://extension.umd.edu/resource/soil-fill-raised-beds",
+        "type": "other"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "TOPSOIL_JOBS[\"bed-amend\"].low"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LND-005",
+      "category": "landscaping",
+      "material_or_item": "Compost over existing soil (raised bed on soil)",
+      "quantity": "added layer, high end",
+      "value": 4,
+      "value_text": "4",
+      "unit": "in",
+      "value_si": 101.6,
+      "unit_si": "mm",
+      "condition": "mixed into the top 4 in",
+      "source": {
+        "publisher": "University of Maryland Extension",
+        "title": "Soil to fill raised beds",
+        "url": "https://extension.umd.edu/resource/soil-fill-raised-beds",
+        "type": "other"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "TOPSOIL_JOBS[\"bed-amend\"].high"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LND-006",
+      "category": "landscaping",
+      "material_or_item": "Raised bed on a hard surface",
+      "quantity": "minimum fill depth (leafy greens, beans, cucumbers)",
+      "value": 8,
+      "value_text": "8",
+      "unit": "in",
+      "value_si": 203.2,
+      "unit_si": "mm",
+      "condition": "bed over a hard surface",
+      "source": {
+        "publisher": "University of Maryland Extension",
+        "title": "Soil to fill raised beds",
+        "url": "https://extension.umd.edu/resource/soil-fill-raised-beds",
+        "type": "other"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "TOPSOIL_JOBS[\"raised-bed\"].depthIn"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LND-007",
+      "category": "landscaping",
+      "material_or_item": "Raised bed on a hard surface",
+      "quantity": "fill depth, upper end (pepper, tomato, squash)",
+      "value": 24,
+      "value_text": "24",
+      "unit": "in",
+      "value_si": 609.6,
+      "unit_si": "mm",
+      "condition": "bed over a hard surface",
+      "source": {
+        "publisher": "University of Maryland Extension",
+        "title": "Soil to fill raised beds",
+        "url": "https://extension.umd.edu/resource/soil-fill-raised-beds",
+        "type": "other"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "TOPSOIL_JOBS[\"raised-bed\"].high"
+      ],
+      "notes": "The same source gives 12 to 24 in for these crops.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LND-008",
+      "category": "landscaping",
+      "material_or_item": "Raised bed box",
+      "quantity": "minimum box height, low end",
+      "value": null,
+      "value_text": "",
+      "unit": "in",
+      "value_si": null,
+      "unit_si": "mm",
+      "condition": "framed bed",
+      "source": {
+        "publisher": "Utah State University Extension",
+        "title": "Raised Bed Gardening",
+        "url": "https://extension.usu.edu/yardandgarden/research/raised-bed-gardening",
+        "type": "other"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/topsoil-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/topsoil.ts"
+      ],
+      "engine_symbol": [
+        "TOPSOIL_JOBS[\"raised-bed\"].low"
+      ],
+      "notes": "The source gives a range of box heights.",
+      "withheld": true,
+      "withheld_hosts": [
+        "extension.usu.edu"
+      ]
+    },
+    {
+      "id": "ASP-001",
+      "category": "asphalt",
+      "material_or_item": "Hot-mix asphalt",
+      "quantity": "unit weight in place, low end of range",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/ft3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "in place (compacted)",
+      "source": {
+        "publisher": "Asphalt Institute",
+        "title": "Engineering FAQs",
+        "url": "https://www.asphaltinstitute.org/engineering/engineering-faqs/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/paving/asphalt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/asphalt.ts"
+      ],
+      "engine_symbol": [
+        "AI_PCF_MIN"
+      ],
+      "notes": "",
+      "withheld": true,
+      "withheld_hosts": [
+        "asphaltinstitute.org"
+      ]
+    },
+    {
+      "id": "ASP-002",
+      "category": "asphalt",
+      "material_or_item": "Hot-mix asphalt",
+      "quantity": "unit weight in place, estimating value",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/ft3",
+      "value_si": null,
+      "unit_si": "kg/m3",
+      "condition": "in place (compacted)",
+      "source": {
+        "publisher": "Asphalt Institute",
+        "title": "Engineering FAQs",
+        "url": "https://www.asphaltinstitute.org/engineering/engineering-faqs/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/paving/asphalt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/asphalt.ts"
+      ],
+      "engine_symbol": [
+        "AI_PCF"
+      ],
+      "notes": "The source gives a range and names the value to use for estimating.",
+      "withheld": true,
+      "withheld_hosts": [
+        "asphaltinstitute.org"
+      ]
+    },
+    {
+      "id": "ASP-003",
+      "category": "asphalt",
+      "material_or_item": "Compacted asphalt pavement",
+      "quantity": "spread rate per inch of compacted thickness",
+      "value": null,
+      "value_text": "",
+      "unit": "lb/(yd2*in)",
+      "value_si": null,
+      "unit_si": "kg/(m2*mm)",
+      "condition": "compacted",
+      "source": {
+        "publisher": "Minnesota Asphalt Pavement Association",
+        "title": "Asphalt calculator",
+        "url": "https://www.asphaltisbest.com/asphalt-calculator",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/paving/asphalt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/asphalt.ts"
+      ],
+      "engine_symbol": [
+        "MAPA_LB_PER_SQYD_IN"
+      ],
+      "notes": "Stated as the association's own assumption.",
+      "withheld": true,
+      "withheld_hosts": [
+        "asphaltisbest.com"
+      ]
+    },
+    {
+      "id": "ASP-004",
+      "category": "asphalt",
+      "material_or_item": "Dense-graded hot-mix asphalt",
+      "quantity": "placement rate per inch of pavement",
+      "value": 110,
+      "value_text": "110",
+      "unit": "lb/(yd2*in)",
+      "value_si": 2.349,
+      "unit_si": "kg/(m2*mm)",
+      "condition": "unless the plans show another rate",
+      "source": {
+        "publisher": "Texas Department of Transportation",
+        "title": "2024 Standard Specifications, Item 341",
+        "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s341.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/paving/asphalt-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/asphalt.ts"
+      ],
+      "engine_symbol": [
+        "MAPA_LB_PER_SQYD_IN"
+      ],
+      "notes": "State DOT specification (Texas); same figure as the MAPA row, second source.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-001",
+      "category": "masonry",
+      "material_or_item": "Concrete masonry unit, conventional",
+      "quantity": "nominal face height",
+      "value": 8,
+      "value_text": "8",
+      "unit": "in",
+      "value_si": 203.2,
+      "unit_si": "mm",
+      "condition": "nominal (includes 3/8 in joint)",
+      "source": {
+        "publisher": "National Concrete Masonry Association (republished by R.I. Lampus)",
+        "title": "NCMA TEK 2-1B, Typical Sizes and Shapes of Concrete Masonry Units",
+        "url": "https://www.lampus.com/files/Resources/NCMA-TEK-02-01B.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "NOMINAL_FACE_H_IN"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-002",
+      "category": "masonry",
+      "material_or_item": "Concrete masonry unit, conventional",
+      "quantity": "nominal face length",
+      "value": 16,
+      "value_text": "16",
+      "unit": "in",
+      "value_si": 406.4,
+      "unit_si": "mm",
+      "condition": "nominal (includes 3/8 in joint)",
+      "source": {
+        "publisher": "National Concrete Masonry Association (republished by R.I. Lampus)",
+        "title": "NCMA TEK 2-1B, Typical Sizes and Shapes of Concrete Masonry Units",
+        "url": "https://www.lampus.com/files/Resources/NCMA-TEK-02-01B.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "NOMINAL_FACE_L_IN"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-003",
+      "category": "masonry",
+      "material_or_item": "Concrete masonry mortar joint",
+      "quantity": "joint thickness (specified size = nominal minus this)",
+      "value": 0.375,
+      "value_text": "0.375",
+      "unit": "in",
+      "value_si": 9.525,
+      "unit_si": "mm",
+      "condition": "",
+      "source": {
+        "publisher": "National Concrete Masonry Association (republished by R.I. Lampus)",
+        "title": "NCMA TEK 2-1B, Typical Sizes and Shapes of Concrete Masonry Units",
+        "url": "https://www.lampus.com/files/Resources/NCMA-TEK-02-01B.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "JOINT_IN"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-004",
+      "category": "masonry",
+      "material_or_item": "Concrete masonry unit, 8 x 16 in nominal",
+      "quantity": "exposed face area per unit",
+      "value": 0.8889,
+      "value_text": "0.8889",
+      "unit": "ft2 (per unit face)",
+      "value_si": 0.08258,
+      "unit_si": "m2 (per unit face)",
+      "condition": "8/9 ft2",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "FACE_SQFT"
+      ],
+      "notes": "Exact value 8/9.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-005",
+      "category": "masonry",
+      "material_or_item": "Concrete masonry unit, 8 x 16 in nominal",
+      "quantity": "units per 100 ft2 of wall",
+      "value": 119,
+      "value_text": "119",
+      "unit": "units/100 ft2",
+      "value_si": 12.81,
+      "unit_si": "units/m2",
+      "condition": "includes 5 % waste and breakage",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "UNITS_PER_100_SQFT"
+      ],
+      "notes": "Independent of unit width; subtract openings.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-006",
+      "category": "masonry",
+      "material_or_item": "Concrete masonry unit, 8 x 16 in nominal",
+      "quantity": "waste and breakage allowance inside the 119 figure",
+      "value": 5,
+      "value_text": "5",
+      "unit": "percent",
+      "value_si": 5,
+      "unit_si": "percent",
+      "condition": "",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "DEFAULT_WASTE_PCT"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-007",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "masonry cement bag weight",
+      "value": 70,
+      "value_text": "70",
+      "unit": "lb",
+      "value_si": 31.75,
+      "unit_si": "kg",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "MASONRY_BAG_LB"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-008",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "units laid per 70 lb bag of masonry cement",
+      "value": 30,
+      "value_text": "30",
+      "unit": "units/bag",
+      "value_si": 30,
+      "unit_si": "units/bag",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "UNITS_PER_MASONRY_BAG"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-009",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "bags of masonry cement per short ton of masonry sand",
+      "value": 8,
+      "value_text": "8",
+      "unit": "bags/short ton of sand",
+      "value_si": 8.818,
+      "unit_si": "bags/t of sand",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "MASONRY_BAGS_PER_TON_SAND"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-010",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "sand quantity above which extra sand is added",
+      "value": 3,
+      "value_text": "3",
+      "unit": "short tons",
+      "value_si": 2.722,
+      "unit_si": "t",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "SAND_WASTE_THRESHOLD_TONS"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-011",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "extra sand added above that quantity",
+      "value": 0.5,
+      "value_text": "0.5",
+      "unit": "short tons",
+      "value_si": 0.4536,
+      "unit_si": "t",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "SAND_WASTE_EXTRA_TONS"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-012",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "units laid per short ton of sand",
+      "value": 240,
+      "value_text": "240",
+      "unit": "units/short ton of sand",
+      "value_si": 264.6,
+      "unit_si": "units/t of sand",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "UNITS_PER_TON_SAND"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-013",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "portland cement bag weight",
+      "value": 94,
+      "value_text": "94",
+      "unit": "lb",
+      "value_si": 42.64,
+      "unit_si": "kg",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "PORTLAND_BAG_LB"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-014",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "units laid per 94 lb bag of portland cement",
+      "value": 62,
+      "value_text": "62",
+      "unit": "units/bag of portland cement",
+      "value_si": 62,
+      "unit_si": "units/bag of portland cement",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "UNITS_PER_PORTLAND_BAG"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-015",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "hydrated lime bag weight",
+      "value": 50,
+      "value_text": "50",
+      "unit": "lb",
+      "value_si": 22.68,
+      "unit_si": "kg",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "LIME_BAG_LB"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-016",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "lime bags per portland cement bag",
+      "value": 0.5,
+      "value_text": "0.5",
+      "unit": "lime bags/portland bag",
+      "value_si": 0.5,
+      "unit_si": "lime bags/portland bag",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "LIME_BAGS_PER_PORTLAND_BAG"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "MAS-017",
+      "category": "masonry",
+      "material_or_item": "Mortar for concrete masonry (approximate)",
+      "quantity": "sand per portland cement bag",
+      "value": 4.25,
+      "value_text": "4.25",
+      "unit": "ft3 of sand/bag",
+      "value_si": 0.1203,
+      "unit_si": "m3 of sand/bag",
+      "condition": "face-shell bedding",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+        "url": "https://www.cmha.org/resource/tek-04-02a/",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/concrete-block-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/block.ts"
+      ],
+      "engine_symbol": [
+        "SAND_CUFT_PER_PORTLAND_BAG"
+      ],
+      "notes": "Rule of thumb for face-shell mortar bedding, cement batched on site with separate sand (not preblended mortar).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "PAV-001",
+      "category": "pavers",
+      "material_or_item": "Interlocking pavers, Walks (pedestrian)",
+      "quantity": "minimum compacted aggregate base, low end",
+      "value": 4,
+      "value_text": "4",
+      "unit": "in",
+      "value_si": 101.6,
+      "unit_si": "mm",
+      "condition": "compacted",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "Tech Spec 10, Application Guide (2022)",
+        "url": "https://www.cmha.org/wp-content/uploads/2023/12/TechSpec10-ApplicationGuide2022.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/paver-base.ts",
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "BASE_MIN_IN[\"walk\"][0]",
+        "BASE_DEPTH_IN_LOW"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "PAV-002",
+      "category": "pavers",
+      "material_or_item": "Interlocking pavers, Walks (pedestrian)",
+      "quantity": "minimum compacted aggregate base, high end",
+      "value": 6,
+      "value_text": "6",
+      "unit": "in",
+      "value_si": 152.4,
+      "unit_si": "mm",
+      "condition": "compacted",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "Tech Spec 10, Application Guide (2022)",
+        "url": "https://www.cmha.org/wp-content/uploads/2023/12/TechSpec10-ApplicationGuide2022.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "BASE_MIN_IN[\"walk\"][1]"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "PAV-003",
+      "category": "pavers",
+      "material_or_item": "Interlocking pavers, Driveways",
+      "quantity": "minimum compacted aggregate base, low end",
+      "value": 6,
+      "value_text": "6",
+      "unit": "in",
+      "value_si": 152.4,
+      "unit_si": "mm",
+      "condition": "compacted",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "Tech Spec 10, Application Guide (2022)",
+        "url": "https://www.cmha.org/wp-content/uploads/2023/12/TechSpec10-ApplicationGuide2022.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "BASE_MIN_IN[\"driveway\"][0]"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "PAV-004",
+      "category": "pavers",
+      "material_or_item": "Interlocking pavers, Driveways",
+      "quantity": "minimum compacted aggregate base, high end",
+      "value": 8,
+      "value_text": "8",
+      "unit": "in",
+      "value_si": 203.2,
+      "unit_si": "mm",
+      "condition": "compacted",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "Tech Spec 10, Application Guide (2022)",
+        "url": "https://www.cmha.org/wp-content/uploads/2023/12/TechSpec10-ApplicationGuide2022.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "BASE_MIN_IN[\"driveway\"][1]"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "PAV-005",
+      "category": "pavers",
+      "material_or_item": "Interlocking pavers, Streets",
+      "quantity": "minimum compacted aggregate base, low end",
+      "value": 8,
+      "value_text": "8",
+      "unit": "in",
+      "value_si": 203.2,
+      "unit_si": "mm",
+      "condition": "compacted",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "Tech Spec 10, Application Guide (2022)",
+        "url": "https://www.cmha.org/wp-content/uploads/2023/12/TechSpec10-ApplicationGuide2022.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "BASE_MIN_IN[\"street\"][0]"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "PAV-006",
+      "category": "pavers",
+      "material_or_item": "Interlocking pavers, Streets",
+      "quantity": "minimum compacted aggregate base, high end",
+      "value": 12,
+      "value_text": "12",
+      "unit": "in",
+      "value_si": 304.8,
+      "unit_si": "mm",
+      "condition": "compacted",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "Tech Spec 10, Application Guide (2022)",
+        "url": "https://www.cmha.org/wp-content/uploads/2023/12/TechSpec10-ApplicationGuide2022.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "BASE_MIN_IN[\"street\"][1]"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "PAV-007",
+      "category": "pavers",
+      "material_or_item": "Bedding sand under pavers",
+      "quantity": "screeded thickness, upper end",
+      "value": 1.5,
+      "value_text": "1.5",
+      "unit": "in",
+      "value_si": 38.1,
+      "unit_si": "mm",
+      "condition": "uncompacted, before pavers are vibrated in",
+      "source": {
+        "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+        "title": "Tech Spec 10, Application Guide (2022)",
+        "url": "https://www.cmha.org/wp-content/uploads/2023/12/TechSpec10-ApplicationGuide2022.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "BEDDING_MAX_IN"
+      ],
+      "notes": "The source gives 1 to 1-1/2 in.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "PAV-008",
+      "category": "pavers",
+      "material_or_item": "Bedding sand under pavers",
+      "quantity": "screeded thickness",
+      "value": 1,
+      "value_text": "1",
+      "unit": "in",
+      "value_si": 25.4,
+      "unit_si": "mm",
+      "condition": "screeded over 1 in pipes",
+      "source": {
+        "publisher": "Oregon State University Extension Service",
+        "title": "10-Step Guide to Installing Pavers",
+        "url": "https://extension.oregonstate.edu/sites/extd8/files/documents/1/howtoinstallpavers.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/earthwork/sand-calculator/",
+        "https://takeoffmetric.com/masonry/paver-base-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/sand.ts",
+        "site/src/data/reference/paver-base.ts"
+      ],
+      "engine_symbol": [
+        "BEDDING_IN",
+        "BEDDING_IN"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "ROF-001",
+      "category": "roofing",
+      "material_or_item": "GAF Timberline HDZ laminated shingles",
+      "quantity": "bundles per square",
+      "value": null,
+      "value_text": "",
+      "unit": "bundles/square",
+      "value_si": null,
+      "unit_si": "bundles/m2",
+      "condition": "1 square = 100 ft2",
+      "source": {
+        "publisher": "GAF",
+        "title": "Timberline HDZ Shingles, specification sheet (RESGN467HDZ), archived copy",
+        "url": "https://web.archive.org/web/2024/https://www.gaf.com/en-us/document-library/documents/specifications/timberline-hdz-shingles-spec-sheet-resgn467hdz.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/roofing/roofing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/roofing.ts"
+      ],
+      "engine_symbol": [
+        "HDZ_BUNDLES_PER_SQUARE"
+      ],
+      "notes": "One product line.",
+      "withheld": true,
+      "withheld_hosts": [
+        "gaf.com"
+      ]
+    },
+    {
+      "id": "ROF-002",
+      "category": "roofing",
+      "material_or_item": "GAF Timberline HDZ laminated shingles",
+      "quantity": "pieces per square",
+      "value": null,
+      "value_text": "",
+      "unit": "pieces/square",
+      "value_si": null,
+      "unit_si": "pieces/m2",
+      "condition": "1 square = 100 ft2",
+      "source": {
+        "publisher": "GAF",
+        "title": "Timberline HDZ Shingles, specification sheet (RESGN467HDZ), archived copy",
+        "url": "https://web.archive.org/web/2024/https://www.gaf.com/en-us/document-library/documents/specifications/timberline-hdz-shingles-spec-sheet-resgn467hdz.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/roofing/roofing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/roofing.ts"
+      ],
+      "engine_symbol": [
+        "HDZ_PIECES_PER_SQUARE"
+      ],
+      "notes": "One product line.",
+      "withheld": true,
+      "withheld_hosts": [
+        "gaf.com"
+      ]
+    },
+    {
+      "id": "ROF-003",
+      "category": "roofing",
+      "material_or_item": "GAF Seal-A-Ridge ridge cap shingles",
+      "quantity": "bundles per 100 linear feet",
+      "value": null,
+      "value_text": "",
+      "unit": "bundles/100 lf",
+      "value_si": null,
+      "unit_si": "bundles/m",
+      "condition": "",
+      "source": {
+        "publisher": "GAF",
+        "title": "Seal-A-Ridge Ridge Cap Shingles, sell sheet (RESHR112), archived copy",
+        "url": "https://web.archive.org/web/20250709161926/https://www.gaf.com/en-us/document-library/documents/data-sheets/seal-a-ridge-ridge-cap-shingles-sell-sheet-reshr112.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/roofing/roofing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/roofing.ts"
+      ],
+      "engine_symbol": [
+        "SEAL_A_RIDGE_BUNDLES_PER_100_LF"
+      ],
+      "notes": "One product line.",
+      "withheld": true,
+      "withheld_hosts": [
+        "gaf.com"
+      ]
+    },
+    {
+      "id": "ROF-004",
+      "category": "roofing",
+      "material_or_item": "GAF Pro-Start starter strip",
+      "quantity": "linear feet per bundle",
+      "value": null,
+      "value_text": "",
+      "unit": "lf/bundle",
+      "value_si": null,
+      "unit_si": "m/bundle",
+      "condition": "sheets split in half",
+      "source": {
+        "publisher": "GAF",
+        "title": "Pro-Start Starter Strip Shingle, sell sheet (RESGN546-0723), distributor copy (Fransyl)",
+        "url": "https://www.fransyl.com/DATA/PRODUIT/PDF_en/2638_en~v~pro-start-starter-strip-shingle.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/roofing/roofing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/roofing.ts"
+      ],
+      "engine_symbol": [
+        "PRO_START_LF_PER_BUNDLE"
+      ],
+      "notes": "One product.",
+      "withheld": true,
+      "withheld_hosts": [
+        "fransyl.com",
+        "gaf.com"
+      ]
+    },
+    {
+      "id": "ROF-005",
+      "category": "roofing",
+      "material_or_item": "GAF FeltBuster synthetic underlayment",
+      "quantity": "squares per roll",
+      "value": null,
+      "value_text": "",
+      "unit": "squares/roll",
+      "value_si": null,
+      "unit_si": "m2/roll",
+      "condition": "excludes laps",
+      "source": {
+        "publisher": "GAF",
+        "title": "FeltBuster Synthetic Roofing Felt, sell sheet (RESUL183), contractor copy",
+        "url": "https://www.thrushandson.com/wp-content/uploads/FeltBuster-1.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/roofing/roofing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/roofing.ts"
+      ],
+      "engine_symbol": [
+        "FELTBUSTER_SQUARES_PER_ROLL"
+      ],
+      "notes": "One product.",
+      "withheld": true,
+      "withheld_hosts": [
+        "thrushandson.com",
+        "gaf.com"
+      ]
+    },
+    {
+      "id": "ROF-006",
+      "category": "roofing",
+      "material_or_item": "GAF FeltBuster synthetic underlayment",
+      "quantity": "coverage per roll",
+      "value": null,
+      "value_text": "",
+      "unit": "ft2/roll",
+      "value_si": null,
+      "unit_si": "m2/roll",
+      "condition": "excludes laps",
+      "source": {
+        "publisher": "GAF",
+        "title": "FeltBuster Synthetic Roofing Felt, sell sheet (RESUL183), contractor copy",
+        "url": "https://www.thrushandson.com/wp-content/uploads/FeltBuster-1.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/roofing/roofing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/roofing.ts"
+      ],
+      "engine_symbol": [
+        "FELTBUSTER_SQFT_PER_ROLL"
+      ],
+      "notes": "One product.",
+      "withheld": true,
+      "withheld_hosts": [
+        "thrushandson.com",
+        "gaf.com"
+      ]
+    },
+    {
+      "id": "LUM-001",
+      "category": "lumber",
+      "material_or_item": "Board foot",
+      "quantity": "volume of one board foot",
+      "value": null,
+      "value_text": "",
+      "unit": "in3",
+      "value_si": null,
+      "unit_si": "m3",
+      "condition": "sawed lumber, 1 in x 12 in x 1 ft",
+      "source": {
+        "publisher": "University of Missouri Extension",
+        "title": "G5050, How to Measure Lumber (board foot definition)",
+        "url": "https://extension.missouri.edu/publications/g5050",
+        "type": "other"
+      },
+      "date_opened": "2026-09-20",
+      "date_opened_unix": 1789862400,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "CU_IN_PER_BOARD_FOOT"
+      ],
+      "notes": "",
+      "withheld": true,
+      "withheld_hosts": [
+        "extension.missouri.edu"
+      ]
+    },
+    {
+      "id": "LUM-002",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 1 in thickness",
+      "quantity": "minimum dressed thickness, dry",
+      "value": 0.75,
+      "value_text": "0.75",
+      "unit": "in",
+      "value_si": 19.05,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_THICKNESS_IN[\"1\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 19.1 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-003",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 2 in thickness",
+      "quantity": "minimum dressed thickness, dry",
+      "value": 1.5,
+      "value_text": "1.5",
+      "unit": "in",
+      "value_si": 38.1,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_THICKNESS_IN[\"2\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 38.1 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-004",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 2 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 1.5,
+      "value_text": "1.5",
+      "unit": "in",
+      "value_si": 38.1,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"2\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 38.1 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-005",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 3 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 2.5,
+      "value_text": "2.5",
+      "unit": "in",
+      "value_si": 63.5,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"3\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 63.5 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-006",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 4 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 3.5,
+      "value_text": "3.5",
+      "unit": "in",
+      "value_si": 88.9,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/",
+        "https://takeoffmetric.com/decks-fences/deck-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts",
+        "site/src/data/reference/deck.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"4\"]",
+        "DRESSED_WIDTH_4_IN"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 88.9 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-007",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 5 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 4.5,
+      "value_text": "4.5",
+      "unit": "in",
+      "value_si": 114.3,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"5\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 114.3 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-008",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 6 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 5.5,
+      "value_text": "5.5",
+      "unit": "in",
+      "value_si": 139.7,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/",
+        "https://takeoffmetric.com/decks-fences/deck-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts",
+        "site/src/data/reference/deck.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"6\"]",
+        "DRESSED_WIDTH_6_IN"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 139.7 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-009",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 7 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 6.5,
+      "value_text": "6.5",
+      "unit": "in",
+      "value_si": 165.1,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"7\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 165.1 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-010",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 8 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 7.25,
+      "value_text": "7.25",
+      "unit": "in",
+      "value_si": 184.2,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"8\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 184.2 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-011",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 9 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 8.25,
+      "value_text": "8.25",
+      "unit": "in",
+      "value_si": 209.6,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"9\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 209.6 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-012",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 10 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 9.25,
+      "value_text": "9.25",
+      "unit": "in",
+      "value_si": 235,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"10\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 235.0 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-013",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 11 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 10.25,
+      "value_text": "10.25",
+      "unit": "in",
+      "value_si": 260.4,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"11\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 260.4 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-014",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 12 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 11.25,
+      "value_text": "11.25",
+      "unit": "in",
+      "value_si": 285.8,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/",
+        "https://takeoffmetric.com/stairs/stair-stringer-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts",
+        "site/src/data/reference/stair.ts",
+        "site/src/engine/formulas/stairs/stair-stringer.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"12\"]",
+        "NOMINAL_2X12_ACTUAL_WIDTH_IN",
+        "BOARD_WIDTH_IN"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 285.8 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-015",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 14 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 13.25,
+      "value_text": "13.25",
+      "unit": "in",
+      "value_si": 336.6,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"14\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 336.6 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "LUM-016",
+      "category": "lumber",
+      "material_or_item": "Softwood lumber, nominal 16 in width",
+      "quantity": "minimum dressed width, dry",
+      "value": 15.25,
+      "value_text": "15.25",
+      "unit": "in",
+      "value_si": 387.4,
+      "unit_si": "mm",
+      "condition": "dry",
+      "source": {
+        "publisher": "National Institute of Standards and Technology (NIST)",
+        "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+        "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-10-01",
+      "date_opened_unix": 1790812800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/board-foot-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/board-foot.ts"
+      ],
+      "engine_symbol": [
+        "DRESSED_WIDTH_IN[\"16\"]"
+      ],
+      "notes": "Minimum dressed size, dry (19 % moisture or less), softwood lumber standard; not a given product's size. Source prints 387.4 mm (PS 20-25 supersedes PS 20-20 Revision 1).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "FRM-001",
+      "category": "framing",
+      "material_or_item": "Wood stud wall",
+      "quantity": "stud spacing on center, conventional framing",
+      "value": null,
+      "value_text": "",
+      "unit": "in",
+      "value_si": null,
+      "unit_si": "mm",
+      "condition": "conventional framing",
+      "source": {
+        "publisher": "APA - The Engineered Wood Association",
+        "title": "Advanced Framing Construction Guide, Form No. M400A",
+        "url": "https://constructioninstruction.com/wp-content/uploads/2020/11/APA-Advanced-Framing-Construction-Guide.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/wall-framing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/framing.ts"
+      ],
+      "engine_symbol": [
+        "CONVENTIONAL_SPACING_IN"
+      ],
+      "notes": "Describes two framing practices; stud size, height and spacing are set by the building code and your plans.",
+      "withheld": true,
+      "withheld_hosts": [
+        "constructioninstruction.com",
+        "apawood.org"
+      ]
+    },
+    {
+      "id": "FRM-002",
+      "category": "framing",
+      "material_or_item": "Wood stud wall",
+      "quantity": "stud spacing on center, advanced framing",
+      "value": null,
+      "value_text": "",
+      "unit": "in",
+      "value_si": null,
+      "unit_si": "mm",
+      "condition": "advanced framing (2x6)",
+      "source": {
+        "publisher": "APA - The Engineered Wood Association",
+        "title": "Advanced Framing Construction Guide, Form No. M400A",
+        "url": "https://constructioninstruction.com/wp-content/uploads/2020/11/APA-Advanced-Framing-Construction-Guide.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/wall-framing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/framing.ts"
+      ],
+      "engine_symbol": [
+        "ADVANCED_SPACING_IN"
+      ],
+      "notes": "Describes two framing practices; stud size, height and spacing are set by the building code and your plans.",
+      "withheld": true,
+      "withheld_hosts": [
+        "constructioninstruction.com",
+        "apawood.org"
+      ]
+    },
+    {
+      "id": "FRM-003",
+      "category": "framing",
+      "material_or_item": "Wood stud wall",
+      "quantity": "top plates, conventional framing",
+      "value": null,
+      "value_text": "",
+      "unit": "top plates",
+      "value_si": null,
+      "unit_si": "top plates",
+      "condition": "conventional framing",
+      "source": {
+        "publisher": "APA - The Engineered Wood Association",
+        "title": "Advanced Framing Construction Guide, Form No. M400A",
+        "url": "https://constructioninstruction.com/wp-content/uploads/2020/11/APA-Advanced-Framing-Construction-Guide.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/wall-framing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/framing.ts"
+      ],
+      "engine_symbol": [
+        "CONVENTIONAL_TOP_PLATES"
+      ],
+      "notes": "Describes two framing practices; stud size, height and spacing are set by the building code and your plans.",
+      "withheld": true,
+      "withheld_hosts": [
+        "constructioninstruction.com",
+        "apawood.org"
+      ]
+    },
+    {
+      "id": "FRM-004",
+      "category": "framing",
+      "material_or_item": "Wood stud wall",
+      "quantity": "top plates, advanced framing",
+      "value": null,
+      "value_text": "",
+      "unit": "top plates",
+      "value_si": null,
+      "unit_si": "top plates",
+      "condition": "advanced framing",
+      "source": {
+        "publisher": "APA - The Engineered Wood Association",
+        "title": "Advanced Framing Construction Guide, Form No. M400A",
+        "url": "https://constructioninstruction.com/wp-content/uploads/2020/11/APA-Advanced-Framing-Construction-Guide.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/wall-framing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/framing.ts"
+      ],
+      "engine_symbol": [
+        "ADVANCED_TOP_PLATES"
+      ],
+      "notes": "Describes two framing practices; stud size, height and spacing are set by the building code and your plans.",
+      "withheld": true,
+      "withheld_hosts": [
+        "constructioninstruction.com",
+        "apawood.org"
+      ]
+    },
+    {
+      "id": "FRM-005",
+      "category": "framing",
+      "material_or_item": "Wood stud wall",
+      "quantity": "king studs per opening",
+      "value": null,
+      "value_text": "",
+      "unit": "studs",
+      "value_si": null,
+      "unit_si": "studs",
+      "condition": "one pair per opening",
+      "source": {
+        "publisher": "APA - The Engineered Wood Association",
+        "title": "Advanced Framing Construction Guide, Form No. M400A",
+        "url": "https://constructioninstruction.com/wp-content/uploads/2020/11/APA-Advanced-Framing-Construction-Guide.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/wall-framing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/framing.ts"
+      ],
+      "engine_symbol": [
+        "KINGS_PER_OPENING"
+      ],
+      "notes": "Describes two framing practices; stud size, height and spacing are set by the building code and your plans.",
+      "withheld": true,
+      "withheld_hosts": [
+        "constructioninstruction.com",
+        "apawood.org"
+      ]
+    },
+    {
+      "id": "FRM-006",
+      "category": "framing",
+      "material_or_item": "Wood stud wall",
+      "quantity": "jack studs per side of an opening",
+      "value": null,
+      "value_text": "",
+      "unit": "studs",
+      "value_si": null,
+      "unit_si": "studs",
+      "condition": "one pair per opening",
+      "source": {
+        "publisher": "APA - The Engineered Wood Association",
+        "title": "Advanced Framing Construction Guide, Form No. M400A",
+        "url": "https://constructioninstruction.com/wp-content/uploads/2020/11/APA-Advanced-Framing-Construction-Guide.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/wall-framing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/framing.ts"
+      ],
+      "engine_symbol": [
+        "JACKS_PER_SIDE_DEFAULT"
+      ],
+      "notes": "Describes two framing practices; stud size, height and spacing are set by the building code and your plans.",
+      "withheld": true,
+      "withheld_hosts": [
+        "constructioninstruction.com",
+        "apawood.org"
+      ]
+    },
+    {
+      "id": "FRM-007",
+      "category": "framing",
+      "material_or_item": "Wood stud wall",
+      "quantity": "studs at an interior wall intersection, conventional",
+      "value": null,
+      "value_text": "",
+      "unit": "studs",
+      "value_si": null,
+      "unit_si": "studs",
+      "condition": "one stud on each side of the intersecting wall",
+      "source": {
+        "publisher": "APA - The Engineered Wood Association",
+        "title": "Advanced Framing Construction Guide, Form No. M400A",
+        "url": "https://constructioninstruction.com/wp-content/uploads/2020/11/APA-Advanced-Framing-Construction-Guide.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/wall-framing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/framing.ts"
+      ],
+      "engine_symbol": [
+        "TEE_STUDS_CONVENTIONAL"
+      ],
+      "notes": "Describes two framing practices; stud size, height and spacing are set by the building code and your plans.",
+      "withheld": true,
+      "withheld_hosts": [
+        "constructioninstruction.com",
+        "apawood.org"
+      ]
+    },
+    {
+      "id": "FRM-008",
+      "category": "framing",
+      "material_or_item": "Wood stud wall",
+      "quantity": "studs added at an interior wall intersection, ladder junction",
+      "value": null,
+      "value_text": "",
+      "unit": "studs",
+      "value_si": null,
+      "unit_si": "studs",
+      "condition": "advanced framing; blocking instead of extra studs",
+      "source": {
+        "publisher": "APA - The Engineered Wood Association",
+        "title": "Advanced Framing Construction Guide, Form No. M400A",
+        "url": "https://constructioninstruction.com/wp-content/uploads/2020/11/APA-Advanced-Framing-Construction-Guide.pdf",
+        "type": "trade_association"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/framing/wall-framing-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/framing.ts"
+      ],
+      "engine_symbol": [
+        "TEE_STUDS_LADDER"
+      ],
+      "notes": "Describes two framing practices; stud size, height and spacing are set by the building code and your plans.",
+      "withheld": true,
+      "withheld_hosts": [
+        "constructioninstruction.com",
+        "apawood.org"
+      ]
+    },
+    {
+      "id": "DCK-001",
+      "category": "decking",
+      "material_or_item": "Trex composite deck boards",
+      "quantity": "side-to-side gap, minimum",
+      "value": null,
+      "value_text": "",
+      "unit": "in",
+      "value_si": null,
+      "unit_si": "mm",
+      "condition": "minimum",
+      "source": {
+        "publisher": "Trex Company",
+        "title": "Trex 2026 Decking Installation Guide (copy hosted by The Home Depot)",
+        "url": "https://images.thdstatic.com/catalog/pdfImages/bd/bd0b6ac7-924e-452a-be97-a1d9ecc32864.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/decks-fences/deck-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/deck.ts"
+      ],
+      "engine_symbol": [
+        "GAP_MIN_IN"
+      ],
+      "notes": "One product line (Trex composite decking).",
+      "withheld": true,
+      "withheld_hosts": [
+        "images.thdstatic.com",
+        "trex.com"
+      ]
+    },
+    {
+      "id": "DCK-002",
+      "category": "decking",
+      "material_or_item": "Trex composite deck boards",
+      "quantity": "side-to-side gap in heavily wooded areas",
+      "value": null,
+      "value_text": "",
+      "unit": "in",
+      "value_si": null,
+      "unit_si": "mm",
+      "condition": "recommended in heavily wooded areas",
+      "source": {
+        "publisher": "Trex Company",
+        "title": "Trex 2026 Decking Installation Guide (copy hosted by The Home Depot)",
+        "url": "https://images.thdstatic.com/catalog/pdfImages/bd/bd0b6ac7-924e-452a-be97-a1d9ecc32864.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/decks-fences/deck-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/deck.ts"
+      ],
+      "engine_symbol": [
+        "GAP_WOODED_IN"
+      ],
+      "notes": "One product line (Trex composite decking).",
+      "withheld": true,
+      "withheld_hosts": [
+        "images.thdstatic.com",
+        "trex.com"
+      ]
+    },
+    {
+      "id": "DCK-003",
+      "category": "decking",
+      "material_or_item": "Trex composite deck boards",
+      "quantity": "side-to-side gap, never over",
+      "value": null,
+      "value_text": "",
+      "unit": "in",
+      "value_si": null,
+      "unit_si": "mm",
+      "condition": "maximum",
+      "source": {
+        "publisher": "Trex Company",
+        "title": "Trex 2026 Decking Installation Guide (copy hosted by The Home Depot)",
+        "url": "https://images.thdstatic.com/catalog/pdfImages/bd/bd0b6ac7-924e-452a-be97-a1d9ecc32864.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/decks-fences/deck-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/deck.ts"
+      ],
+      "engine_symbol": [
+        "GAP_MAX_IN"
+      ],
+      "notes": "One product line (Trex composite decking).",
+      "withheld": true,
+      "withheld_hosts": [
+        "images.thdstatic.com",
+        "trex.com"
+      ]
+    },
+    {
+      "id": "DCK-004",
+      "category": "decking",
+      "material_or_item": "Trex composite deck boards",
+      "quantity": "face screws per joist",
+      "value": null,
+      "value_text": "",
+      "unit": "screws/joist",
+      "value_si": null,
+      "unit_si": "screws/joist",
+      "condition": "",
+      "source": {
+        "publisher": "Trex Company",
+        "title": "Trex 2026 Decking Installation Guide (copy hosted by The Home Depot)",
+        "url": "https://images.thdstatic.com/catalog/pdfImages/bd/bd0b6ac7-924e-452a-be97-a1d9ecc32864.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-19",
+      "date_opened_unix": 1789776000,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/decks-fences/deck-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/deck.ts"
+      ],
+      "engine_symbol": [
+        "SCREWS_PER_JOIST"
+      ],
+      "notes": "One product line (Trex composite decking).",
+      "withheld": true,
+      "withheld_hosts": [
+        "images.thdstatic.com",
+        "trex.com"
+      ]
+    },
+    {
+      "id": "HVC-001",
+      "category": "hvac",
+      "material_or_item": "Standard air",
+      "quantity": "density",
+      "value": 0.075,
+      "value_text": "0.075",
+      "unit": "lbm/ft3",
+      "value_si": 1.201,
+      "unit_si": "kg/m3",
+      "condition": "70 F +/- 30 F, below 1,500 ft, moisture up to 0.02 lb water per lb dry air",
+      "source": {
+        "publisher": "McGill AirFlow",
+        "title": "Engineering Design Advisory #1, Duct design",
+        "url": "https://www.mcgillairflow.com/pdf/cas/designAdvisory01.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-26",
+      "date_opened_unix": 1790380800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/hvac/duct-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/duct.ts"
+      ],
+      "engine_symbol": [
+        "RHO_LBM"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "HVC-002",
+      "category": "hvac",
+      "material_or_item": "Standard air",
+      "quantity": "velocity pressure constant, V = 4005 x sqrt(VP)",
+      "value": 4005,
+      "value_text": "4005",
+      "unit": "fpm/sqrt(in wg)",
+      "value_si": null,
+      "unit_si": "",
+      "condition": "standard air, 70 F, 29.92 in Hg",
+      "source": {
+        "publisher": "Pacific Northwest National Laboratory / U.S. DOE Building America Solution Center",
+        "title": "Measuring Mechanical Ventilation Airflow",
+        "url": "https://basc.pnnl.gov/resource-guides/measuring-mechanical-ventilation-airflow",
+        "type": "other"
+      },
+      "date_opened": "2026-09-26",
+      "date_opened_unix": 1790380800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/hvac/duct-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/duct.ts"
+      ],
+      "engine_symbol": [
+        "VP_K"
+      ],
+      "notes": "Unit-specific coefficient (V in fpm, VP in in. wg); no SI value given.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "HVC-003",
+      "category": "hvac",
+      "material_or_item": "Galvanized steel duct",
+      "quantity": "absolute roughness of galvanized duct fittings supplied by ASHRAE",
+      "value": null,
+      "value_text": "",
+      "unit": "mm",
+      "value_si": null,
+      "unit_si": "mm",
+      "condition": "new galvanized fittings",
+      "source": {
+        "publisher": "Liu, Long & Chen (2012), HVAC&R Research, ASHRAE RP-1493",
+        "title": "Duct fittings study, surface roughness of galvanized steel as provided by ASHRAE",
+        "url": "https://engineering.purdue.edu/~yanchen/paper/2012-10.pdf",
+        "type": "other"
+      },
+      "date_opened": "2026-09-26",
+      "date_opened_unix": 1790380800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/hvac/duct-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/duct.ts"
+      ],
+      "engine_symbol": [
+        "EPS_GALV_MM"
+      ],
+      "notes": "Peer-reviewed paper quoting ASHRAE. Straight-duct roughness is not given by the paper.",
+      "withheld": true,
+      "withheld_hosts": [
+        "engineering.purdue.edu"
+      ]
+    },
+    {
+      "id": "HVC-004",
+      "category": "hvac",
+      "material_or_item": "Air",
+      "quantity": "dynamic viscosity at sea-level standard day",
+      "value": 3.62e-7,
+      "value_text": "3.62e-7",
+      "unit": "lb*s/ft2",
+      "value_si": 0.00001733,
+      "unit_si": "Pa*s",
+      "condition": "59 F",
+      "source": {
+        "publisher": "NASA Glenn Research Center",
+        "title": "Viscosity of air, Sutherland's formula",
+        "url": "https://www.grc.nasa.gov/www/k-12/airplane/viscosity.html",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-26",
+      "date_opened_unix": 1790380800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/hvac/duct-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/duct.ts"
+      ],
+      "engine_symbol": [
+        "MU0"
+      ],
+      "notes": "Carried to 70 F with Sutherland's law (3.679e-7 lb*s/ft2, arithmetic).",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "HVC-005",
+      "category": "hvac",
+      "material_or_item": "Air",
+      "quantity": "Sutherland constant",
+      "value": 198.72,
+      "value_text": "198.72",
+      "unit": "degR",
+      "value_si": 110.4,
+      "unit_si": "K",
+      "condition": "",
+      "source": {
+        "publisher": "NASA Glenn Research Center",
+        "title": "Viscosity of air, Sutherland's formula",
+        "url": "https://www.grc.nasa.gov/www/k-12/airplane/viscosity.html",
+        "type": "federal_public_domain"
+      },
+      "date_opened": "2026-09-26",
+      "date_opened_unix": 1790380800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/hvac/duct-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/duct.ts"
+      ],
+      "engine_symbol": [
+        "SUTHERLAND_R"
+      ],
+      "notes": "",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "HVC-006",
+      "category": "hvac",
+      "material_or_item": "Rectangular duct, equivalent round diameter",
+      "quantity": "Huebscher equivalent-diameter coefficient",
+      "value": 1.3,
+      "value_text": "1.30",
+      "unit": "dimensionless",
+      "value_si": 1.3,
+      "unit_si": "dimensionless",
+      "condition": "Deq = 1.30 (ab)^0.625 / (a+b)^0.250",
+      "source": {
+        "publisher": "McGill AirFlow",
+        "title": "Engineering Design Advisory #1, Duct design",
+        "url": "https://www.mcgillairflow.com/pdf/cas/designAdvisory01.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-26",
+      "date_opened_unix": 1790380800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/hvac/duct-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/duct.ts"
+      ],
+      "engine_symbol": [
+        "HUEBSCHER_K"
+      ],
+      "notes": "Dimensionally consistent: the same coefficients hold in inches or millimetres.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "HVC-007",
+      "category": "hvac",
+      "material_or_item": "Rectangular duct, equivalent round diameter",
+      "quantity": "Huebscher exponent on (a x b)",
+      "value": 0.625,
+      "value_text": "0.625",
+      "unit": "dimensionless",
+      "value_si": 0.625,
+      "unit_si": "dimensionless",
+      "condition": "Deq = 1.30 (ab)^0.625 / (a+b)^0.250",
+      "source": {
+        "publisher": "McGill AirFlow",
+        "title": "Engineering Design Advisory #1, Duct design",
+        "url": "https://www.mcgillairflow.com/pdf/cas/designAdvisory01.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-26",
+      "date_opened_unix": 1790380800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/hvac/duct-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/duct.ts"
+      ],
+      "engine_symbol": [
+        "HUEBSCHER_P"
+      ],
+      "notes": "Dimensionally consistent: the same coefficients hold in inches or millimetres.",
+      "withheld": false,
+      "withheld_hosts": []
+    },
+    {
+      "id": "HVC-008",
+      "category": "hvac",
+      "material_or_item": "Rectangular duct, equivalent round diameter",
+      "quantity": "Huebscher exponent on (a + b)",
+      "value": 0.25,
+      "value_text": "0.250",
+      "unit": "dimensionless",
+      "value_si": 0.25,
+      "unit_si": "dimensionless",
+      "condition": "Deq = 1.30 (ab)^0.625 / (a+b)^0.250",
+      "source": {
+        "publisher": "McGill AirFlow",
+        "title": "Engineering Design Advisory #1, Duct design",
+        "url": "https://www.mcgillairflow.com/pdf/cas/designAdvisory01.pdf",
+        "type": "manufacturer_datasheet"
+      },
+      "date_opened": "2026-09-26",
+      "date_opened_unix": 1790380800,
+      "used_by_tool_url": [
+        "https://takeoffmetric.com/hvac/duct-calculator/"
+      ],
+      "engine_file": [
+        "site/src/data/reference/duct.ts"
+      ],
+      "engine_symbol": [
+        "HUEBSCHER_Q"
+      ],
+      "notes": "Dimensionally consistent: the same coefficients hold in inches or millimetres.",
+      "withheld": false,
+      "withheld_hosts": []
+    }
+  ],
+  "count": 148,
+  "dataset_version": "1.2.0",
+  "generator": "go run (github.com/tresor4k/takeoffmetric-go, dataset 1.2.0)",
+  "searches": [
+    {
+      "query": "bank density",
+      "ids": [
+        "AGG-002",
+        "AGG-005",
+        "AGG-007",
+        "AGG-008",
+        "AGG-010",
+        "AGG-013",
+        "AGG-015",
+        "AGG-017",
+        "AGG-019",
+        "AGG-021",
+        "EW-001",
+        "EW-005",
+        "EW-009",
+        "EW-013",
+        "EW-017",
+        "EW-018"
+      ]
+    },
+    {
+      "query": "rebar weight",
+      "ids": [
+        "REB-002",
+        "REB-004",
+        "REB-006",
+        "REB-008",
+        "REB-010",
+        "REB-012"
+      ]
+    },
+    {
+      "query": "QUIKRETE",
+      "ids": [
+        "CON-001",
+        "CON-002",
+        "CON-003",
+        "CON-004",
+        "CON-005",
+        "CON-006"
+      ]
+    },
+    {
+      "query": "nist lumber",
+      "ids": [
+        "LUM-002",
+        "LUM-003",
+        "LUM-004",
+        "LUM-005",
+        "LUM-006",
+        "LUM-007",
+        "LUM-008",
+        "LUM-009",
+        "LUM-010",
+        "LUM-011",
+        "LUM-012",
+        "LUM-013",
+        "LUM-014",
+        "LUM-015",
+        "LUM-016"
+      ]
+    },
+    {
+      "query": "asphalt",
+      "ids": [
+        "ASP-001",
+        "ASP-002",
+        "ASP-003",
+        "ASP-004"
+      ]
+    },
+    {
+      "query": "",
+      "ids": []
+    },
+    {
+      "query": "   ",
+      "ids": []
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "APA - The Engineered Wood Association",
+      "title": "Advanced Framing Construction Guide, Form No. M400A",
+      "url": "https://constructioninstruction.com/wp-content/uploads/2020/11/APA-Advanced-Framing-Construction-Guide.pdf",
+      "type": "trade_association"
+    },
+    {
+      "publisher": "Asphalt Institute",
+      "title": "Engineering FAQs",
+      "url": "https://www.asphaltinstitute.org/engineering/engineering-faqs/",
+      "type": "trade_association"
+    },
+    {
+      "publisher": "Caterpillar",
+      "title": "Material Density Tables To Help Estimate Earthwork Volumes",
+      "url": "https://www.cat.com/en_US/articles/ci-articles/earthwork-volumes-reference-tables.html",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "Clemson University Home & Garden Information Center",
+      "title": "Lawn Establishment",
+      "url": "https://hgic.clemson.edu/factsheet/lawn-establishment/",
+      "type": "other"
+    },
+    {
+      "publisher": "Clemson University Home & Garden Information Center",
+      "title": "Topdressing a Home Lawn",
+      "url": "https://hgic.clemson.edu/factsheet/topdressing-a-home-lawn/",
+      "type": "other"
+    },
+    {
+      "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+      "title": "TEK 04-02A, Estimating Concrete Masonry Materials",
+      "url": "https://www.cmha.org/resource/tek-04-02a/",
+      "type": "trade_association"
+    },
+    {
+      "publisher": "Concrete Masonry & Hardscapes Association (CMHA)",
+      "title": "Tech Spec 10, Application Guide (2022)",
+      "url": "https://www.cmha.org/wp-content/uploads/2023/12/TechSpec10-ApplicationGuide2022.pdf",
+      "type": "trade_association"
+    },
+    {
+      "publisher": "FHWA Federal Lands Highway",
+      "title": "Project Development and Design Manual, Earthwork Design, Exhibit 5.1 A",
+      "url": "https://highways.dot.gov/federal-lands/pddm/dpg/earthwork-design",
+      "type": "federal_public_domain"
+    },
+    {
+      "publisher": "Federal Highway Administration (FHWA)",
+      "title": "FHWA-HRT-05-057, Appendix C",
+      "url": "https://www.fhwa.dot.gov/publications/research/infrastructure/bridge/05057/appc.cfm",
+      "type": "federal_public_domain"
+    },
+    {
+      "publisher": "GAF",
+      "title": "FeltBuster Synthetic Roofing Felt, sell sheet (RESUL183), contractor copy",
+      "url": "https://www.thrushandson.com/wp-content/uploads/FeltBuster-1.pdf",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "GAF",
+      "title": "Pro-Start Starter Strip Shingle, sell sheet (RESGN546-0723), distributor copy (Fransyl)",
+      "url": "https://www.fransyl.com/DATA/PRODUIT/PDF_en/2638_en~v~pro-start-starter-strip-shingle.pdf",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "GAF",
+      "title": "Seal-A-Ridge Ridge Cap Shingles, sell sheet (RESHR112), archived copy",
+      "url": "https://web.archive.org/web/20250709161926/https://www.gaf.com/en-us/document-library/documents/data-sheets/seal-a-ridge-ridge-cap-shingles-sell-sheet-reshr112.pdf",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "GAF",
+      "title": "Timberline HDZ Shingles, specification sheet (RESGN467HDZ), archived copy",
+      "url": "https://web.archive.org/web/2024/https://www.gaf.com/en-us/document-library/documents/specifications/timberline-hdz-shingles-spec-sheet-resgn467hdz.pdf",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "Liu, Long & Chen (2012), HVAC&R Research, ASHRAE RP-1493",
+      "title": "Duct fittings study, surface roughness of galvanized steel as provided by ASHRAE",
+      "url": "https://engineering.purdue.edu/~yanchen/paper/2012-10.pdf",
+      "type": "other"
+    },
+    {
+      "publisher": "Marenakos Rock Center",
+      "title": "Conversion and coverages",
+      "url": "https://marenakos.com/conversion-and-coverages/",
+      "type": "supplier"
+    },
+    {
+      "publisher": "McGill AirFlow",
+      "title": "Engineering Design Advisory #1, Duct design",
+      "url": "https://www.mcgillairflow.com/pdf/cas/designAdvisory01.pdf",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "Michigan State University Extension",
+      "title": "E2910, Establishing a new lawn using seed",
+      "url": "https://www.canr.msu.edu/resources/establishing_a_new_lawn_using_seed_e2910",
+      "type": "other"
+    },
+    {
+      "publisher": "Minnesota Asphalt Pavement Association",
+      "title": "Asphalt calculator",
+      "url": "https://www.asphaltisbest.com/asphalt-calculator",
+      "type": "trade_association"
+    },
+    {
+      "publisher": "NASA Glenn Research Center",
+      "title": "Viscosity of air, Sutherland's formula",
+      "url": "https://www.grc.nasa.gov/www/k-12/airplane/viscosity.html",
+      "type": "federal_public_domain"
+    },
+    {
+      "publisher": "National Concrete Masonry Association (republished by R.I. Lampus)",
+      "title": "NCMA TEK 2-1B, Typical Sizes and Shapes of Concrete Masonry Units",
+      "url": "https://www.lampus.com/files/Resources/NCMA-TEK-02-01B.pdf",
+      "type": "trade_association"
+    },
+    {
+      "publisher": "National Institute of Standards and Technology (NIST)",
+      "title": "American Softwood Lumber Standard PS 20-25, Table 3",
+      "url": "https://www.nist.gov/system/files/documents/2024/12/11/PS%2020-25%20Final.pdf",
+      "type": "federal_public_domain"
+    },
+    {
+      "publisher": "National Ready Mixed Concrete Association (NRMCA)",
+      "title": "CIP 6, Joints in Concrete Slabs on Grade",
+      "url": "https://www.nrmca.org/wp-content/uploads/2021/01/06pr.pdf",
+      "type": "trade_association"
+    },
+    {
+      "publisher": "North Bay Materials",
+      "title": "Cubic Yard to Tons material calculator and density chart",
+      "url": "https://www.northbaymaterials.com/landscape-material-density-calculator",
+      "type": "supplier"
+    },
+    {
+      "publisher": "Nucor",
+      "title": "Steel Rebar (product page, FAQ)",
+      "url": "https://nucor.com/products/rebar/",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "Oregon State University Extension Service",
+      "title": "10-Step Guide to Installing Pavers",
+      "url": "https://extension.oregonstate.edu/sites/extd8/files/documents/1/howtoinstallpavers.pdf",
+      "type": "other"
+    },
+    {
+      "publisher": "Pacific Northwest National Laboratory / U.S. DOE Building America Solution Center",
+      "title": "Measuring Mechanical Ventilation Airflow",
+      "url": "https://basc.pnnl.gov/resource-guides/measuring-mechanical-ventilation-airflow",
+      "type": "other"
+    },
+    {
+      "publisher": "QUIKRETE",
+      "title": "Concrete Mix No. 1101 data sheet",
+      "url": "https://www.quikrete.com/pdfs/data_sheet-concrete%20mix%201101.pdf",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "QUIKRETE",
+      "title": "Fast-Setting Concrete Mix No. 1004 data sheet",
+      "url": "https://www.quikrete.com/pdfs/data_sheet-fast%20setting%20concrete%20mix%201004-50.pdf",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "Texas Department of Transportation",
+      "title": "2024 Standard Specifications, Item 341",
+      "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s341.pdf",
+      "type": "other"
+    },
+    {
+      "publisher": "Texas Department of Transportation",
+      "title": "2024 Standard Specifications, Item 440, Table 1",
+      "url": "https://ftp.txdot.gov/pub/txdot-info/cmd/cserve/specs/2024/standard/s440.pdf",
+      "type": "other"
+    },
+    {
+      "publisher": "Trex Company",
+      "title": "Trex 2026 Decking Installation Guide (copy hosted by The Home Depot)",
+      "url": "https://images.thdstatic.com/catalog/pdfImages/bd/bd0b6ac7-924e-452a-be97-a1d9ecc32864.pdf",
+      "type": "manufacturer_datasheet"
+    },
+    {
+      "publisher": "University of Maryland Extension",
+      "title": "Soil to fill raised beds",
+      "url": "https://extension.umd.edu/resource/soil-fill-raised-beds",
+      "type": "other"
+    },
+    {
+      "publisher": "University of Missouri Extension",
+      "title": "G5050, How to Measure Lumber (board foot definition)",
+      "url": "https://extension.missouri.edu/publications/g5050",
+      "type": "other"
+    },
+    {
+      "publisher": "Utah State University Extension",
+      "title": "Raised Bed Gardening",
+      "url": "https://extension.usu.edu/yardandgarden/research/raised-bed-gardening",
+      "type": "other"
+    }
+  ],
+  "withheld_count": 55
+}
